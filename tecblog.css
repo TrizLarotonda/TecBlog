@@ -1,0 +1,116 @@
+/* estilos gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;    
+}
+
+/* layout */
+/* .=classe (mais geral) e #=id (mais específico)*/
+#area-cabecalho{
+    background-color: #59a908;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-cabecalho-outros{
+    background-color: #4e4e4e;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0;
+    padding: 15px;
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 260px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+
+.conteudo-lateral{
+    background-color: #CCC;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem-lateral{
+    font-size: 12px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+    clear: both; /*para fixar em baixo */
+}
+
+/* formatação geral */
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #59a908;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#area-cabecalho a:visited{
+    color: #fff;
+    padding: 12px;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 40px;
+}
+
+h2{
+    color: #59a908;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.branco{
+    color: #ccc;
+}
+
+.cinza-claro{
+    color: #CCC;
+}
+
+.data-postagem{
+    font-size: 10px;
+}
