@@ -25,12 +25,7 @@ body{
     text-align: center;
 }
 
-#area-logo{
-    padding: 10px;
-    font-size: 45px;
-}
-
-#area-menu{
+#area-logo, #area-menu{
     padding: 10px;
 }
 
